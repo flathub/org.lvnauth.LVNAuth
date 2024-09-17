@@ -1,6 +1,6 @@
 {
     "app-id": "org.lvnauth.LVNAuth",
-    "runtime": "org.freedesktop.Platform",
+    "runtime": "org.freedesktop.Sdk",
     "runtime-version": "23.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "startup.sh",
@@ -32,7 +32,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/jrezai/lvnauth.git",
-                    "commit": "fca64aa9bb350c48ff8766afc713e1d46403dc71"
+                    "commit": "891b9bf14dc620e578a6fa9d311d78d9fc99f4c2"
                 }
             ]
         },
