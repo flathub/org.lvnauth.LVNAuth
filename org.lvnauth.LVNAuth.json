@@ -13,6 +13,7 @@
 	    "--device=dri"
      ],
     "modules": [
+	"dependencies.json",
         {
             "name": "lvnauth",
             "build-commands": [
@@ -32,10 +33,9 @@
                 {
                     "type": "git",
                     "url": "https://github.com/jrezai/lvnauth.git",
-                    "commit": "3e83e9b6cc3f43b332a6ed0ea4cec1e7398b6a22"
+                    "commit": "d39f4b78f538dc5bad9ed15fbe61e0e2ec1d27c3"
                 }
             ]
-        },
-            "dependencies.json"
+        }
     ]
 }
