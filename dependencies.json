@@ -3,30 +3,143 @@
     "modules":
 	    [
 		{
-		    "name": "flit-core",
+		    "name": "python3-charset-normalizer",
 		    "buildsystem": "simple",
 		    "build-commands": [
-			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"flit-core==3.9.0\" --no-build-isolation"
+			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"charset-normalizer==3.4.1\" --no-build-isolation"
 		    ],
 		    "sources": [
 			{
 			    "type": "file",
-			    "url": "https://files.pythonhosted.org/packages/c4/e6/c1ac50fe3eebb38a155155711e6e864e254ce4b6e17fe2429b4c4d5b9e80/flit_core-3.9.0.tar.gz",
-			    "sha256": "72ad266176c4a3fcfab5f2930d76896059851240570ce9a98733b658cb786eba"
+			    "url": "https://files.pythonhosted.org/packages/0e/f6/65ecc6878a89bb1c23a086ea335ad4bf21a588990c3f535a227b9eea9108/charset_normalizer-3.4.1-py3-none-any.whl",
+			    "sha256": "d98b1668f06378c6dbefec3b92299716b931cd4e6061f3c875a71ced1780ab85"
 			}
 		    ]
 		},
+
+		{
+		    "name": "python3-idna",
+		    "buildsystem": "simple",
+		    "build-commands": [
+			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"idna==3.10\" --no-build-isolation"
+		    ],
+		    "sources": [
+			{
+			    "type": "file",
+			    "url": "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl",
+			    "sha256": "946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3"
+			}
+		    ]
+		},
+
+
+		{
+		    "name": "python3-certifi",
+		    "buildsystem": "simple",
+		    "build-commands": [
+			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"certifi==2025.7.14\" --no-build-isolation"
+		    ],
+		    "sources": [
+			{
+			    "type": "file",
+			    "url": "https://files.pythonhosted.org/packages/4f/52/34c6cf5bb9285074dc3531c437b3919e825d976fde097a7a73f79e726d03/certifi-2025.7.14-py3-none-any.whl",
+			    "sha256": "6b31f564a415d79ee77df69d757bb49a5bb53bd9f756cbbe24394ffd6fc1f4b2"
+			}
+		    ]
+		},
+
+
+		{
+		    "name": "python3-h11",
+		    "buildsystem": "simple",
+		    "build-commands": [
+			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"h11==0.14.0\" --no-build-isolation"
+		    ],
+		    "sources": [
+			{
+			    "type": "file",
+			    "url": "https://files.pythonhosted.org/packages/95/04/ff642e65ad6b90db43e668d70ffb6736436c7ce41fcc549f4e9472234127/h11-0.14.0-py3-none-any.whl",
+			    "sha256": "e3fe4ac4b851c468cc8363d500db52c2ead036020723024a109d37346efaa761"
+			}
+		    ]
+		},
+
+
+		{
+		    "name": "python3-jh2",
+		    "buildsystem": "simple",
+		    "build-commands": [
+			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"jh2==5.0.8\" --no-build-isolation"
+		    ],
+		    "sources": [
+			{
+			    "type": "file",
+			    "url": "https://files.pythonhosted.org/packages/28/dd/1d2709dc22a4bded03b5c199a6f338b658db46ffebda76b9c376ab8f1bfc/jh2-5.0.8-py3-none-any.whl",
+			    "sha256": "0c9bf2d5e4ef45c1686c6f76935e7ca263f5eae4de92bf5d1873a0e737e4eb7d"
+			}
+		    ]
+		},
+
+
+		{
+		    "name": "python3-qh3",
+		    "buildsystem": "simple",
+		    "build-commands": [
+			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"qh3==1.4.2\" --no-build-isolation"
+		    ],
+		    "sources": [
+			{
+			    "type": "file",
+			    "url": "https://files.pythonhosted.org/packages/7b/3e/fab4c8d55fe5978d96a5fe15c62cbdf30e055d906cbf88f8305da20550d5/qh3-1.4.2.tar.gz",
+			    "sha256": "d5ac3e8e3f66ff88819205dbc67e6f771cbb80529325ca9f3bc03fa00c5c83aa"
+			}
+		    ]
+		},
+
+
+		{
+		    "name": "python3-urllib3-future",
+		    "buildsystem": "simple",
+		    "build-commands": [
+			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"urllib3-future==2.12.912\" --no-build-isolation"
+		    ],
+		    "sources": [
+			{
+			    "type": "file",
+			    "url": "https://files.pythonhosted.org/packages/89/95/c4bb5ac9b6ada65955c70caba6e13b3fa73434fd13291b71bc705c64cc6b/urllib3_future-2.12.912-py3-none-any.whl",
+			    "sha256": "6eee58ce7aadf3dafdb1768f5aa801e80359f0f70eda60a782e376e66d5fc87c"
+			}
+		    ]
+		},
+
+
+		{
+		    "name": "python3-wassima",
+		    "buildsystem": "simple",
+		    "build-commands": [
+			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"wassima==1.2.2\" --no-build-isolation"
+		    ],
+		    "sources": [
+			{
+			    "type": "file",
+			    "url": "https://files.pythonhosted.org/packages/08/dd/8df88ac3a1644bc6300eb3e5529a5808fff28d4e9a37fde9abcbd5ee7281/wassima-1.2.2-py3-none-any.whl",
+			    "sha256": "c0fee0a8593028bde17b57527b1ac21fea74f209b3522363e3ba0197ffaa6323"
+			}
+		    ]
+		},
+
+
 		{
 		    "name": "python3-Pillow",
 		    "buildsystem": "simple",
 		    "build-commands": [
-			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Pillow==10.0.0\" --no-build-isolation"
+			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Pillow==11.1.0\" --no-build-isolation"
 		    ],
 		    "sources": [
 			{
 			    "type": "file",
-			    "url": "https://files.pythonhosted.org/packages/0f/8b/2ebaf9adcf4260c00f842154865f8730cf745906aa5dd499141fb6063e26/Pillow-10.0.0.tar.gz",
-			    "sha256": "9c82b5b3e043c7af0d95792d0d20ccf68f61a1fec6b3530e718b688422727396"
+			    "url": "https://files.pythonhosted.org/packages/f3/af/c097e544e7bd278333db77933e535098c259609c4eb3b85381109602fb5b/pillow-11.1.0.tar.gz",
+			    "sha256": "368da70808b36d73b4b390a8ffac11069f8a5c85f29eff1f1b01bcf3ef5b2a20"
 			}
 		    ]
 		},
@@ -34,13 +147,27 @@
 		    "name": "python3-pygame-ce",
 		    "buildsystem": "simple",
 		    "build-commands": [
-			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pygame-ce==2.3.1\" --no-build-isolation"
+			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pygame-ce==2.5.3\" --no-build-isolation"
 		    ],
 		    "sources": [
 			{
 			    "type": "file",
-			    "url": "https://files.pythonhosted.org/packages/29/1f/8acc9e552047358688875e7a1ef8f5b5419a7bc5c1eeee3a5beab5a995ff/pygame-ce-2.3.1.tar.gz",
-			    "sha256": "d7eab24aa97ab806e1a3b3d268d0edb8ca3b7ee47f8baa6dbf29d46c39cf3d79"
+			    "url": "https://files.pythonhosted.org/packages/17/dc/fd9f264e54c7920f91a34956ae67fb888617f05c512d696bcc2b3c492587/pygame_ce-2.5.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+			    "sha256": "d2cca1789ab4f3709c3b624743469a00753c5886f6cbd19d3f2f6c98571ad5a5"
+			}
+		    ]
+		},
+		{
+		    "name": "python3-niquests",
+		    "buildsystem": "simple",
+		    "build-commands": [
+			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"niquests==3.13.1\" --no-build-isolation"
+		    ],
+		    "sources": [
+			{
+			    "type": "file",
+			    "url": "https://files.pythonhosted.org/packages/2c/b8/8afeb742e04020366f6c919dc4e20932649ac926b611bef79a27182adb7d/niquests-3.13.1-py3-none-any.whl",
+			    "sha256": "a32183c98100723e7a308f6a13f4a1b857a9f38465bed7c6f06bfbaf307f0bf1"
 			}
 		    ]
 		},
@@ -62,13 +189,13 @@
 		    "name": "python3-pygubu",
 		    "buildsystem": "simple",
 		    "build-commands": [
-			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pygubu==0.35.5\" --no-build-isolation"
+			"pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pygubu==0.36.3\" --no-build-isolation"
 		    ],
 		    "sources": [
 			{
 			    "type": "file",
-			    "url": "https://files.pythonhosted.org/packages/b1/63/d7e50f9939f312cdc43df642958b3f5072c0d9096a702479137649ce47b3/pygubu-0.35.5-py3-none-any.whl",
-			    "sha256": "4f1bd1e8f39e2e50a1febe093062eb2c9625ac415486f0bfb0ed860ee3c776e3"
+			    "url": "https://files.pythonhosted.org/packages/33/07/9e2dc8e18c1e35b6f132bcd0cf15f376ba5e65300df4571eccbca73cbdc1/pygubu-0.36.3-py3-none-any.whl",
+			    "sha256": "8cc5df7f68b03acb0762c3cdf2ad3130b4759620e670326988e14551c7ee8767"
 			}
 		    ]
 		},
