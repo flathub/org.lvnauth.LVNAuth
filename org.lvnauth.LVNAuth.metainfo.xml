@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2026 Jobin Rezai -->
+<component type="desktop-application">
+  <id>org.lvnauth.LVNAuth</id>
+  
+  <name>LVNAuth</name>
+  <summary>Create and play visual novels</summary>
+  
+  <metadata_license>MIT</metadata_license>
+  <project_license>LGPL-3.0-or-later</project_license>
+
+  <developer id="tld.vendor">
+    <name>Jobin Rezai</name>
+  </developer>
+  
+  <description>
+    <p>
+      LVNAuth is a desktop application that lets you create and view visual novels.
+      Manage your visual novel, from beginning to end, using LVNAuth&apos;s GUI editor. A command system: You can start or stop actions in your visual novel by using some simple commands. A built-in Wizard window will guide you with using commands so you don&apos;t have to memorize the commands. No programming experience required. LVNAuth is made for story writers. Chapters and Scenes: You can have multiple scenes within a chapter. Simple Animations: Ability to apply character and object animations, such as fade, movement, rotate, and scale.
+    </p>
+    <p>
+      Support for backgrounds, characters, including the ability to change a character&apos;s image to show a different facial expression, and object images. Images in .png format are recommended.
+    </p>
+    <p>
+      Support for Font Sprite Sheets and Font Kerning. There is also a built-in bitmap font tracing tool to convert variable width font sprite sheets to a fixed width.
+    </p>
+    <p>
+      Compile your story into a single .lvna file, which can be opened using LVNAuth. Your viewers will need LVNAuth to view your visual novel.
+    </p>
+  </description>
+
+  <categories>
+    <category>AudioVideo</category>
+    <category>Development</category>
+  </categories>
+  
+  <launchable type="desktop-id">org.lvnauth.LVNAuth.desktop</launchable>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#b3afff</color>
+    <color type="primary" scheme_preference="dark">#5c3f5b</color>
+  </branding>
+
+  <content_rating type="oars-1.1" />
+
+  <url type="homepage">https://lvnauth.org/</url>
+  <url type="donation">https://lvnauth.org/pages/donate.html</url>
+  <url type="vcs-browser">https://github.com/jrezai/lvnauth/</url>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://lvnauth.org/images/screenshots/lvnauth_story_1.png</image>
+      <caption>A visual novel made with LVNAuth</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://lvnauth.org/images/screenshots/lvnauth_story_2.png</image>
+      <caption>A visual novel made with LVNAuth</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://lvnauth.org/images/screenshots/lvnauth_wizard_1.png</image>
+      <caption>The wizard window lists all the commands that LVNAuth can use in a visual novel.</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="1.1" date="2026-01-01">
+    <url type="details">https://lvnauth.org/blog/lvnauth-1.1.html</url>
+      <description>
+        <p>Release description</p>
+          <ul>
+            <li>Animation speed is no longer directly dependent on a visual novel's FPS.</li>
+            <li>Added much finer speed control over effects such as fading, rotating, scaling, moving.</li>
+            <li>The commands font_text_delay_punc and sprite_font_text_delay_punc now take delays in seconds instead of frames.</li>
+            <li>Added a new versatile tinting effect for characters, objects, and dialog sprites. Sprites can be darkened or brightened depending on your needs.</li>
+            <li>Introduced "Focus" variant commands—character_focus, object_focus, and dialog_sprite_focus. These commands automatically tint all other sprites in a category while leaving a single sprite untinted. This is ideal for highlighting the active speaker in a scene.</li>
+            <li>Fixed a critical bug: when a scene that was not in the first chapter, was set as the startup scene, saving the visual novel and re-opening the project would cause some chapters to not load anymore. This has been fixed.</li>
+            <li>Fixed a bug where the last frame of a fade-out effect wasn't applied when the opacity reached zero. This caused a slight visibility of the sprite when it should have been completely transparent.</li>
+            <li>Fixed bug: a rotating/scaling sprite would flicker when the sprite was not fully opaque.</li>
+            <li>Many more changes... Please see the website for more release notes.</li>
+          </ul>
+      </description>
+     </release>
+   </releases>
+</component>
