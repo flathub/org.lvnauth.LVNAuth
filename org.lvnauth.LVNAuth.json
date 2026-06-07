@@ -37,19 +37,19 @@
                 {
                     "type": "git",
                     "url": "https://github.com/jrezai/lvnauth.git",
-                    "commit": "84cf2d40fce3682b3f20bb510c726e05a7395d60"
+                    "commit": "81a82a91dd8e8340ba39d1468c10e3e62b40c912"
                 },
 		{
                     "type": "archive",
-                    "url": "https://lvnauth.org/download/player-template-1.41.tar.gz",
-                    "sha256": "2f40bdbfc0224156ae2988f7101d61c93e5632dad41ffe339376bf76421e871a",
+                    "url": "https://lvnauth.org/download/player-template-1.5.tar.gz",
+                    "sha256": "74577ac904b05460532b891d4370d4d51106f194ef96e9e1d0bb3a4c54a47dc7",
                     "dest": "src/templates/linux",
                     "strip-components": 0
                 },
 		{
                     "type": "archive",
-                    "url": "https://lvnauth.org/download/player-template-1.41.zip",
-                    "sha256": "4db579a37cc3d796c8211bcbe372b824a32885d53cd2e029119eb3a880fa2818",
+                    "url": "https://lvnauth.org/download/player-template-1.5.zip",
+                    "sha256": "8d91eb414e2e66bdf640bb6a3fc497a55a21d28a8d8d3cf71f8d7b2c3d27ff67",
                     "dest": "src/templates/windows",
                     "strip-components": 0
                 }
